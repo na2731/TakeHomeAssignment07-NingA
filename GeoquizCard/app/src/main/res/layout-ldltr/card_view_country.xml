@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_view">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:src="@drawable/asia"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/question_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="17dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:text="@string/asia"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/country_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question_country"
+            android:layout_below="@+id/question_country"
+            android:text="@string/question_asia"
+            android:textSize="15dp" />
+
+
+        
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

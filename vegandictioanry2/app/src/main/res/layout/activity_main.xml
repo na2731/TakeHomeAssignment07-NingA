@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.vegandictioanry2.MainActivity">
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="151dp"
+         android:padding="20dp"
+         android:gravity="center"
+         android:text="Intro:This app is used for vegetarian to look up the attributes of each food,do you want to start?"
+         android:id="@+id/textView" />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/textView"
+         android:layout_centerHorizontal="true"
+         android:text="start" />
+
+ </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

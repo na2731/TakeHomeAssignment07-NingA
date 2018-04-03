@@ -26,14 +26,6 @@
             android:layout_gravity="center"
             android:layout_margin="10dp"/>
 
-        <Button
-            android:onClick="Toast"
-            android:id="@+id/oo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="SHOW CHEATING TIMES"
-            android:layout_gravity="center"
-            android:layout_margin="10dp"/>
 
         <TextView
             android:id="@+id/tt"

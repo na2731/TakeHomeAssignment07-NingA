@@ -52,8 +52,8 @@ public class Cheat extends AppCompatActivity {
 //        String countStr = intent.getStringExtra("qwe");
 //        int count = parseInt(countStr);
     }
-    public void Toast(View view){
-        Toast.makeText(this,"You have cheated for "+Frequency+" times ",Toast.LENGTH_LONG).show();
-    }
+//    public void Toast(View view){
+//        Toast.makeText(this,"You have cheated for "+Frequency+" times ",Toast.LENGTH_LONG).show();
+//    }
 
 }
